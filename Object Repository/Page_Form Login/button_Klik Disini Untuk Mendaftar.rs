@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Klik Disini Untuk Mendaftar</name>
+   <tag></tag>
+   <elementGuidId>065eba9b-5e5e-458a-a522-c7c68b3a1da0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='x']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>918e0579-0790-4d31-be72-66482c5c52d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>buat_login()</value>
+      <webElementGuid>a6495d7d-8c2e-4829-9472-48fddaaee412</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>x</value>
+      <webElementGuid>497fa7e3-9d9c-49ef-9eb6-84b4b735b7a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tombol_lanjut</value>
+      <webElementGuid>33b7085b-f53b-4f09-8963-89db8bcea2ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Klik Disini Untuk Mendaftar
+            </value>
+      <webElementGuid>93124533-d42f-45e7-9959-f6c1dcc8aaf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;x&quot;)</value>
+      <webElementGuid>e28fe28e-a704-4085-be61-70e1a4d5b655</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='x']</value>
+      <webElementGuid>8128b252-5b36-4c99-9d07-17a8c805567a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'x', '&quot;', ')')])[1]/preceding::button[1]</value>
+      <webElementGuid>3a5d686d-3558-460a-8aa8-c177d580e2e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Klik Disini Untuk Mendaftar']/parent::*</value>
+      <webElementGuid>77d8167d-d2b5-4851-b8d0-24c56f02fdf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>6ad32582-c7fb-4af8-b72c-b62d4c143cf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'x' and (text() = '
+            Klik Disini Untuk Mendaftar
+            ' or . = '
+            Klik Disini Untuk Mendaftar
+            ')]</value>
+      <webElementGuid>1e71750e-c8d0-4811-92b1-34788ea7e3da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
