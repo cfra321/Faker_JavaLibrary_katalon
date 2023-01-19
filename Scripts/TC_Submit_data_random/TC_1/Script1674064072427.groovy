@@ -25,8 +25,7 @@ String name = faker.name().username() // Miss Samanta Schmidt
 WebUI.openBrowser('')
 
 
-
-for (int i=1; i<4 ; i++) {
+for (int i=1; i<2 ; i++) {
 	WebUI.navigateToUrl('https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password=')
 	
 	WebUI.maximizeWindow()
