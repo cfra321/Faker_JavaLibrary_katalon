@@ -20,36 +20,40 @@ import com.github.javafaker.Faker as Faker
 
 Faker faker = new Faker(new Locale('id-ID'))
 
-String name = faker.name().username() // Miss Samanta Schmidt
+String name = faker.name().username( // Miss Samanta Schmidt
+    )
+
+String phone = faker.phoneNumber().cellPhone()
 
 WebUI.openBrowser('')
 
+for (int i = 1; i < 2; i++) {
+    WebUI.navigateToUrl('https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password=')
 
-for (int i=1; i<2 ; i++) {
-	WebUI.navigateToUrl('https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password=')
-	
-	WebUI.maximizeWindow()
-	
-	WebUI.click(findTestObject('Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar'))
-	
-	WebUI.delay(1)
-	
-	WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Nama User_username'), name)
-	
-	WebUI.delay(1)
-	
-	WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Nomor Handphone_username'), '082297334277')
-	
-	WebUI.delay(1)
-	
-	WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Username_username'), name + '@gmail.com')
-	
-	WebUI.delay(1)
-	
-	WebUI.setEncryptedText(findTestObject('Object Repository/Page_Form Login/input_Password_password'), 'aeHFOx8jV/A=')
-	
-	WebUI.delay(1)
-	
-	WebUI.click(findTestObject('Object Repository/Page_Form Login/button_submit'))
-	
+    WebUI.maximizeWindow()
+
+    WebUI.click(findTestObject('Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar'))
+
+    WebUI.delay(1)
+
+    WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Nama User_username'), name)
+
+    WebUI.delay(1)
+
+    WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Nomor Handphone_username'), '+628-' + phone)
+
+    WebUI.delay(1)
+
+    WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Username_username'), name + '@gmail.com')
+
+    WebUI.delay(1)
+
+    WebUI.setEncryptedText(findTestObject('Object Repository/Page_Form Login/input_Password_password'), 'aeHFOx8jV/A=')
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('Object Repository/Page_Form Login/button_submit'))
 }
+
+WebUI.closeBrowser()
+

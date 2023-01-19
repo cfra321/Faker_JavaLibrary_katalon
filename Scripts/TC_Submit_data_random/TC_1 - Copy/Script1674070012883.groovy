@@ -18,6 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.github.javafaker.Faker as Faker
 
+Faker faker = new Faker();
+
+String name = faker.name().fullName() // Miss Samanta Schmidt
+
+String phone = faker.phoneNumber().cellPhone()
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password=')
@@ -28,15 +33,15 @@ WebUI.click(findTestObject('Object Repository/Page_Form Login/button_Klik Disini
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Nama User_username'), '@ku2h_wicaksono')
+WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Nama User_username'), name)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Nomor Handphone_username'), '082297334277')
+WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Nomor Handphone_username'), phone)
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Username_username'), '@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Form Login/input_Username_username'), name+'@gmail.com')
 
 WebUI.delay(1)
 

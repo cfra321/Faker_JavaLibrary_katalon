@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LOOP,Chrome 109.0.0.0,,,2023-01-19 18:03:29,2023-01-19 18:04:02,32.769s,PASSED
+,,,,,,,
+Test Cases/TC_Submit_data_random/TC_1,Chrome 109.0.0.0,,,2023-01-19 18:03:30,2023-01-19 18:03:47,17.399s,PASSED
+faker = new com.github.javafaker.Faker(new java.util.Locale(id-ID)),Chrome 109.0.0.0,,,2023-01-19 18:03:31,2023-01-19 18:03:31,0.055s,PASSED
+name = name().username(),Chrome 109.0.0.0,,,2023-01-19 18:03:31,2023-01-19 18:03:31,0.254s,PASSED
+phone = phoneNumber().cellPhone(),Chrome 109.0.0.0,,,2023-01-19 18:03:31,2023-01-19 18:03:31,0.071s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-19 18:03:31,2023-01-19 18:03:36,4.561s,PASSED
+"for ([i = 1, i < 2, (i++)])",Chrome 109.0.0.0,,,2023-01-19 18:03:36,2023-01-19 18:03:47,11.411s,PASSED
+,,,,,,,
+Test Cases/TC_Submit_data_random/TC_1,Chrome 109.0.0.0,,,2023-01-19 18:03:47,2023-01-19 18:04:02,14.692s,PASSED
+faker = new com.github.javafaker.Faker(new java.util.Locale(id-ID)),Chrome 109.0.0.0,,,2023-01-19 18:03:47,2023-01-19 18:03:47,0.006s,PASSED
+name = name().username(),Chrome 109.0.0.0,,,2023-01-19 18:03:47,2023-01-19 18:03:47,0.034s,PASSED
+phone = phoneNumber().cellPhone(),Chrome 109.0.0.0,,,2023-01-19 18:03:47,2023-01-19 18:03:47,0.049s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-19 18:03:47,2023-01-19 18:03:51,3.278s,PASSED
+"for ([i = 1, i < 2, (i++)])",Chrome 109.0.0.0,,,2023-01-19 18:03:51,2023-01-19 18:04:02,11.289s,PASSED

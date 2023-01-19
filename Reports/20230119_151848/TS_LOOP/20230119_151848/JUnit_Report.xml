@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_LOOP" time="47.549" tests="3" failures="0" errors="0">
+   <testsuite name="TS_LOOP" tests="3" failures="0" errors="0" time="47.549" skipped="0" timestamp="2023-01-19 15:18:54" hostname="ku2h_wicaksono - DESKTOP-Q4S3QVL" id="Test Suites/TS_LOOP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ku2h_wicaksono\\git\\Faker_JavaLibrary_katalon\\Reports\\20230119_151848\\TS_LOOP\\20230119_151848"/>
+         <property name="logFiles" value="C:\\Users\\ku2h_wicaksono\\git\\Faker_JavaLibrary_katalon\\Reports\\20230119_151848\\TS_LOOP\\20230119_151848\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ku2h_wicaksono - DESKTOP-Q4S3QVL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="10.255.2.5"/>
+         <property name="sessionId" value="1a987fe4a7a94ce6048a0f8f21056396"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Submit_data_random/TC_1" time="19.107" classname="Test Cases/TC_Submit_data_random/TC_1" status="PASSED">
+         <system-out><![CDATA[2023-01-19 15:18:54 - [TEST_CASE][PASSED] - Test Cases/TC_Submit_data_random/TC_1: Test Cases/TC_Submit_data_random/TC_1
+
+2023-01-19 15:18:56 - [TEST_STEP][PASSED] - faker = new com.github.javafaker.Faker(new java.util.Locale(id-ID)): null
+
+2023-01-19 15:18:56 - [TEST_STEP][PASSED] - name = name().username(): null
+
+2023-01-19 15:18:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-19 15:18:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-19 15:18:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-19 15:19:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-19 15:19:02 - [TEST_STEP][PASSED] - for ([i = 1, i < 2, (i++)]): Object: 'Object Repository/Page_Form Login/button_submit' is clicked on
+
+2023-01-19 15:19:02 - [TEST_STEP][PASSED] - navigateToUrl("https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password="): Navigate to 'https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password=' successfully
+
+2023-01-19 15:19:03 - [MESSAGE][PASSED] - Navigate to 'https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password=' successfully
+
+2023-01-19 15:19:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-19 15:19:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-19 15:19:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar")): Object: 'Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar' is clicked on
+
+2023-01-19 15:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar' is clicked on
+
+2023-01-19 15:19:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form Login/input_Nama User_username"), name): Text 'indra.qodir' is set on object 'Object Repository/Page_Form Login/input_Nama User_username'
+
+2023-01-19 15:19:06 - [MESSAGE][PASSED] - Text 'indra.qodir' is set on object 'Object Repository/Page_Form Login/input_Nama User_username'
+
+2023-01-19 15:19:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form Login/input_Nomor Handphone_username"), "082297334277"): Text '082297334277' is set on object 'Object Repository/Page_Form Login/input_Nomor Handphone_username'
+
+2023-01-19 15:19:08 - [MESSAGE][PASSED] - Text '082297334277' is set on object 'Object Repository/Page_Form Login/input_Nomor Handphone_username'
+
+2023-01-19 15:19:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form Login/input_Username_username"), name + "@gmail.com"): Text 'indra.qodir@gmail.com' is set on object 'Object Repository/Page_Form Login/input_Username_username'
+
+2023-01-19 15:19:10 - [MESSAGE][PASSED] - Text 'indra.qodir@gmail.com' is set on object 'Object Repository/Page_Form Login/input_Username_username'
+
+2023-01-19 15:19:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Form Login/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_Form Login/input_Password_password'
+
+2023-01-19 15:19:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Form Login/input_Password_password'
+
+2023-01-19 15:19:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Form Login/button_submit")): Object: 'Object Repository/Page_Form Login/button_submit' is clicked on
+
+2023-01-19 15:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form Login/button_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Submit_data_random/TC_1" time="13.775" classname="Test Cases/TC_Submit_data_random/TC_1" status="PASSED">
+         <system-out><![CDATA[2023-01-19 15:19:14 - [TEST_CASE][PASSED] - Test Cases/TC_Submit_data_random/TC_1: Test Cases/TC_Submit_data_random/TC_1
+
+2023-01-19 15:19:14 - [TEST_STEP][PASSED] - faker = new com.github.javafaker.Faker(new java.util.Locale(id-ID)): null
+
+2023-01-19 15:19:14 - [TEST_STEP][PASSED] - name = name().username(): null
+
+2023-01-19 15:19:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-19 15:19:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-19 15:19:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-19 15:19:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-19 15:19:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-19 15:19:16 - [TEST_STEP][PASSED] - for ([i = 1, i < 2, (i++)]): Object: 'Object Repository/Page_Form Login/button_submit' is clicked on
+
+2023-01-19 15:19:16 - [TEST_STEP][PASSED] - navigateToUrl("https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password="): Navigate to 'https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password=' successfully
+
+2023-01-19 15:19:17 - [MESSAGE][PASSED] - Navigate to 'https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password=' successfully
+
+2023-01-19 15:19:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-19 15:19:17 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-19 15:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar")): Object: 'Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar' is clicked on
+
+2023-01-19 15:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar' is clicked on
+
+2023-01-19 15:19:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form Login/input_Nama User_username"), name): Text 'tomi.rusmana' is set on object 'Object Repository/Page_Form Login/input_Nama User_username'
+
+2023-01-19 15:19:20 - [MESSAGE][PASSED] - Text 'tomi.rusmana' is set on object 'Object Repository/Page_Form Login/input_Nama User_username'
+
+2023-01-19 15:19:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form Login/input_Nomor Handphone_username"), "082297334277"): Text '082297334277' is set on object 'Object Repository/Page_Form Login/input_Nomor Handphone_username'
+
+2023-01-19 15:19:22 - [MESSAGE][PASSED] - Text '082297334277' is set on object 'Object Repository/Page_Form Login/input_Nomor Handphone_username'
+
+2023-01-19 15:19:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form Login/input_Username_username"), name + "@gmail.com"): Text 'tomi.rusmana@gmail.com' is set on object 'Object Repository/Page_Form Login/input_Username_username'
+
+2023-01-19 15:19:24 - [MESSAGE][PASSED] - Text 'tomi.rusmana@gmail.com' is set on object 'Object Repository/Page_Form Login/input_Username_username'
+
+2023-01-19 15:19:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Form Login/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_Form Login/input_Password_password'
+
+2023-01-19 15:19:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Form Login/input_Password_password'
+
+2023-01-19 15:19:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Form Login/button_submit")): Object: 'Object Repository/Page_Form Login/button_submit' is clicked on
+
+2023-01-19 15:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form Login/button_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Submit_data_random/TC_1" time="13.895" classname="Test Cases/TC_Submit_data_random/TC_1" status="PASSED">
+         <system-out><![CDATA[2023-01-19 15:19:27 - [TEST_CASE][PASSED] - Test Cases/TC_Submit_data_random/TC_1: Test Cases/TC_Submit_data_random/TC_1
+
+2023-01-19 15:19:27 - [TEST_STEP][PASSED] - faker = new com.github.javafaker.Faker(new java.util.Locale(id-ID)): null
+
+2023-01-19 15:19:27 - [TEST_STEP][PASSED] - name = name().username(): null
+
+2023-01-19 15:19:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-19 15:19:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-01-19 15:19:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-19 15:19:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-19 15:19:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-19 15:19:30 - [TEST_STEP][PASSED] - for ([i = 1, i < 2, (i++)]): Object: 'Object Repository/Page_Form Login/button_submit' is clicked on
+
+2023-01-19 15:19:30 - [TEST_STEP][PASSED] - navigateToUrl("https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password="): Navigate to 'https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password=' successfully
+
+2023-01-19 15:19:31 - [MESSAGE][PASSED] - Navigate to 'https://cfra321.github.io/loginJavaScript.github.io/?username=&password=&password=' successfully
+
+2023-01-19 15:19:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-01-19 15:19:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-01-19 15:19:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar")): Object: 'Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar' is clicked on
+
+2023-01-19 15:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form Login/button_Klik Disini Untuk Mendaftar' is clicked on
+
+2023-01-19 15:19:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form Login/input_Nama User_username"), name): Text 'kemal.armansyah' is set on object 'Object Repository/Page_Form Login/input_Nama User_username'
+
+2023-01-19 15:19:34 - [MESSAGE][PASSED] - Text 'kemal.armansyah' is set on object 'Object Repository/Page_Form Login/input_Nama User_username'
+
+2023-01-19 15:19:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form Login/input_Nomor Handphone_username"), "082297334277"): Text '082297334277' is set on object 'Object Repository/Page_Form Login/input_Nomor Handphone_username'
+
+2023-01-19 15:19:36 - [MESSAGE][PASSED] - Text '082297334277' is set on object 'Object Repository/Page_Form Login/input_Nomor Handphone_username'
+
+2023-01-19 15:19:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Form Login/input_Username_username"), name + "@gmail.com"): Text 'kemal.armansyah@gmail.com' is set on object 'Object Repository/Page_Form Login/input_Username_username'
+
+2023-01-19 15:19:38 - [MESSAGE][PASSED] - Text 'kemal.armansyah@gmail.com' is set on object 'Object Repository/Page_Form Login/input_Username_username'
+
+2023-01-19 15:19:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Form Login/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_Form Login/input_Password_password'
+
+2023-01-19 15:19:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Form Login/input_Password_password'
+
+2023-01-19 15:19:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-01-19 15:19:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-01-19 15:19:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Form Login/button_submit")): Object: 'Object Repository/Page_Form Login/button_submit' is clicked on
+
+2023-01-19 15:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Form Login/button_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-19 15:18:54 - [TEST_SUITE][PASSED] - TS_LOOP: Test Cases/TC_Submit_data_random/TC_1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LOOP,Chrome 109.0.0.0,,,2023-01-19 17:59:25,2023-01-19 18:00:11,46.712s,PASSED
+,,,,,,,
+Test Cases/TC_Submit_data_random/TC_1,Chrome 109.0.0.0,,,2023-01-19 17:59:25,2023-01-19 17:59:43,17.747s,PASSED
+faker = new com.github.javafaker.Faker(new java.util.Locale(id-ID)),Chrome 109.0.0.0,,,2023-01-19 17:59:26,2023-01-19 17:59:26,0.071s,PASSED
+name = name().username(),Chrome 109.0.0.0,,,2023-01-19 17:59:26,2023-01-19 17:59:27,0.331s,PASSED
+phone = phoneNumber().cellPhone(),Chrome 109.0.0.0,,,2023-01-19 17:59:27,2023-01-19 17:59:27,0.072s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-19 17:59:27,2023-01-19 17:59:31,4.612s,PASSED
+"for ([i = 1, i < 2, (i++)])",Chrome 109.0.0.0,,,2023-01-19 17:59:31,2023-01-19 17:59:43,11.579s,PASSED
+,,,,,,,
+Test Cases/TC_Submit_data_random/TC_1,Chrome 109.0.0.0,,,2023-01-19 17:59:43,2023-01-19 17:59:57,13.790s,PASSED
+faker = new com.github.javafaker.Faker(new java.util.Locale(id-ID)),Chrome 109.0.0.0,,,2023-01-19 17:59:43,2023-01-19 17:59:43,0.002s,PASSED
+name = name().username(),Chrome 109.0.0.0,,,2023-01-19 17:59:43,2023-01-19 17:59:43,0.053s,PASSED
+phone = phoneNumber().cellPhone(),Chrome 109.0.0.0,,,2023-01-19 17:59:43,2023-01-19 17:59:43,0.037s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-19 17:59:43,2023-01-19 17:59:46,2.710s,PASSED
+"for ([i = 1, i < 2, (i++)])",Chrome 109.0.0.0,,,2023-01-19 17:59:46,2023-01-19 17:59:57,10.956s,PASSED
+,,,,,,,
+Test Cases/TC_Submit_data_random/TC_1,Chrome 109.0.0.0,,,2023-01-19 17:59:57,2023-01-19 18:00:11,14.506s,PASSED
+faker = new com.github.javafaker.Faker(new java.util.Locale(id-ID)),Chrome 109.0.0.0,,,2023-01-19 17:59:57,2023-01-19 17:59:57,0.002s,PASSED
+name = name().username(),Chrome 109.0.0.0,,,2023-01-19 17:59:57,2023-01-19 17:59:57,0.023s,PASSED
+phone = phoneNumber().cellPhone(),Chrome 109.0.0.0,,,2023-01-19 17:59:57,2023-01-19 17:59:57,0.026s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-19 17:59:57,2023-01-19 18:00:00,3.232s,PASSED
+"for ([i = 1, i < 2, (i++)])",Chrome 109.0.0.0,,,2023-01-19 18:00:00,2023-01-19 18:00:11,11.183s,PASSED
